@@ -1,4 +1,4 @@
-@extends("layouts/default")
+@extends("layouts/default", ["title" => "About"])
 
 @section("title")
     About
@@ -11,7 +11,7 @@
     	<div class="row">
     		<div class="col-md-6">
     			<p class="alert alert-warning">
-    				<strong>This app has been built by @estsmo for learning purpose</strong>
+    				<strong>This app has been built by @estsmo for learning purpose</strong>
     			</p>
 
     		</div>

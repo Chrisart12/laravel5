@@ -1,8 +1,8 @@
-@extends("layouts/default")
+@extends("layouts/default", ["title" => "Home"])
 
-@section("title")
+{{-- @section("title")
     Laracarte
-@stop
+@stop --}}
 
 @section("content")
     <h1 class="text-center" >LARACARTE</h1>
