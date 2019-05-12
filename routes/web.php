@@ -10,3 +10,8 @@ Route::get('/about', [
 	'uses' => 'PagesController@about'
 ]);
 
+Route::get('/contacts', [
+	'as' => 'contact_path',
+	'uses' => 'contactsController@create'
+]);
+
